@@ -8,26 +8,32 @@ namespace Grades
 {
    public class GradeBook
     {
-       private List<float> grades;
-       private string _name;
+        private List<float> grades;
+        private string _name;
+       public NameChangedDelegate NameChanged;
 
-       public string Name
-        {
-           get { return _name; }
-           set
-           {
-               if (!String.IsNullOrEmpty(value))
-               {
-                   _name = value;
-               }   
-           } }
-
-
+       
         public GradeBook()
         {
+            _name = "empty";
             grades = new List<float>();
         }
 
+        public string Name
+        {
+            get { return _name; }
+            set
+            {
+                if (!String.IsNullOrEmpty(value))
+                {
+                    if (_name != value)
+                    {
+                        NameChanged(_name, value);
+                    }
+                    _name = value;
+                }
+            }
+        }
         public void AddGrade(float grade)
         {
             grades.Add(grade);
