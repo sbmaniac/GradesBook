@@ -5,3 +5,5 @@ C:\Users\sbmaniac\Documents\GitHub\Grades\Grades.Tests\bin\Debug\Microsoft.Visua
 C:\Users\sbmaniac\Documents\GitHub\Grades\Grades.Tests\obj\Debug\Grades.Tests.csprojResolveAssemblyReference.cache
 C:\Users\sbmaniac\Documents\GitHub\Grades\Grades.Tests\obj\Debug\Grades.Tests.dll
 C:\Users\sbmaniac\Documents\GitHub\Grades\Grades.Tests\obj\Debug\Grades.Tests.pdb
+C:\Users\sbmaniac\Documents\GitHub\Grades\Grades.Tests\bin\Debug\Grades.exe
+C:\Users\sbmaniac\Documents\GitHub\Grades\Grades.Tests\bin\Debug\Grades.pdb
